@@ -1,0 +1,6 @@
+db.linkedon.count({
+  "currentCompany.name": "Walmart",
+  salary: {
+    $gte: 7000,
+  },
+});
